@@ -1,1 +1,1 @@
-# inventorycss
+# Pristine Roleplay Inventory CSS
