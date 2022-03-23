@@ -121,19 +121,41 @@ body {
   margin-left: 344px;
 
 }
-
-input {
+/* Text and Amount field Styling */
+#search-text {
   height: 15%;
   width: 100%;
-  font-size: 1.2vh;
+  font-size: 1.8vh;
   text-align: center;
-  border: 1px solid rgba(200, 200, 200, 0.0);
-  background-color: rgba(12, 12, 12, 0.5);
-  color: rgba(220, 220, 220, 1.0);
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
   margin-top: 0.45vh;
   border-radius: 0.6vh;
+  
 }
 
+#move-amount {
+  height: 15%;
+  width: 100%;
+  margin-bottom: 20%;
+  font-size: 1.8vh;
+  text-align: center;
+  border: 1px solid rgba(200, 200, 200, 0.0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  margin-top: 0.45vh;
+  border-radius: 0.6vh;
+  
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+/* End of styling */
 h2 {
   margin-top: -0.8vh;
 }
@@ -194,8 +216,9 @@ hr {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+  border:solid rgb(0, 238, 255) 1px;
 }
-
+/* use button styling */
 .buttondude {
   flex-grow: 1;
   align-items: center;
@@ -207,11 +230,12 @@ hr {
   background: brown;
   opacity: 1;
   line-height: 4.5vh;
-  font-size: 1.2vh;
+  font-size: 1.8vh;
   font-weight: 0;
   text-decoration: none;
   background-color: rgba(12, 12, 12, 0.5);
-  color: rgba(220, 220, 220, 1.0);
+  color: rgb(255, 255, 255);
+  border: solid rgb(0, 128, 0) 2px;
   display: block;
   float: none;
   font-family: verdana;
@@ -221,18 +245,20 @@ hr {
   transition: all 0.2s ease;
   border-radius: 0.6vh;
 }
-
+/* end use button styling */
 .hidden {
   display: block;
 }
-
+/* close button styling */
 .CloseInv {
   width: 105%;
-  margin-top: 5%;
-  background-color: rgba(120, 10, 20, 0.5);
-  color: rgba(220, 220, 220, 1.0);
+  margin-top: 10%;
+  background-color: rgba(12, 12, 12, 0.5);
+  color: rgb(255, 0, 0);
+  border: solid red 2px;
   border-radius: 6px;
 }
+/* end close button styling */
 
 input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
   border-left: 1px solid #0f0;
